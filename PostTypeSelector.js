@@ -14,7 +14,7 @@ function PostTypeSelector({ postType, setPostType }) {
       <label>Select Post Type:</label>
       <div>
         <input
-          type="checkbox"
+          type="radio"
           id="question"
           name="question"
           checked={postType === 'question'}
@@ -24,7 +24,7 @@ function PostTypeSelector({ postType, setPostType }) {
       </div>
       <div>
         <input
-          type="checkbox"
+          type="radio"
           id="article"
           name="article"
           checked={postType === 'article'}
@@ -34,7 +34,7 @@ function PostTypeSelector({ postType, setPostType }) {
 
         <div>
         <input
-          type="checkbox"
+          type="radio"
           id="FindOuestion"
           name="FindQuestion"
           checked={postType === 'FindQuestion'}
